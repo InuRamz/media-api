@@ -1,0 +1,22 @@
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #453643;
+  padding: 10px;
+}
+
+button {
+  background-color: #8DAA91;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}

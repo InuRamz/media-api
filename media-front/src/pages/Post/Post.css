@@ -1,0 +1,49 @@
+.post-full-size {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.post-content {
+	flex: 1 1 100%;
+	padding: 2%;
+}
+
+.empty-box {
+	display: flex;
+	flex-direction: column;
+	background-color: #5E5D5C;
+	border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 8px;
+	text-align: center;
+}
+
+.thematic-form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 15px;
+
+	input[type='text'] {
+		width: 300px;
+		padding: 8px;
+		box-sizing: border-box;
+	}
+
+	input[type='file'] {
+		background-color: white;
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 1px;
+	}
+
+	select {
+		width: 300px;
+		padding: 8px;
+		box-sizing: border-box;
+	}
+}
